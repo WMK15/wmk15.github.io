@@ -47,7 +47,7 @@
         <div class="container">
           <div class="row align-items-center text-white">
             <!--START THE CONTENT FOR THE INTRO-->
-            <div class="col-md-6 intros">
+            <div class="col-md-6 intros" id="introText">
               <h1 class="display-2">
                 <span class="display-2--intro">
                   Hey! I'm Waseef.
@@ -68,16 +68,9 @@
             </div>
             <!--START THE CONTENT FOR THE VIDEO-->
             <div class="col-md-6 intros text-end">
-                <div class="video-box">
-                    <img src="assets/images/arts/intro-section-illustration.png" alt="video illustration" class="img-fluid">
-                    <a href="#" class="glightbox position-absolute top-50 start-50 translate-middle">
-                        <span>
-                            <i class="fas fa-play-circle"></i>
-                        </span>
-                        <span class="border-animation border-animation--border-1"></span>
-                        <span class="border-animation border-animation--border-2"></span>
-                    </a>
-                </div>
+              <div class="video-box">
+                <img src="assets/images/arts/intro-section-illustration.png" alt="video illustration" class="img-fluid">
+              </div>
             </div>
           </div>
         </div>
@@ -101,17 +94,17 @@
                 <div class="col-md-6 border-right">
                     <div class="bg-white p-3">
                         <h2 class="fw-bold text-start capitalize text-center">
-                            My services range from HTML+CSS designs to Web Application Deployment, Anytime, Anywhere.
+                            My services range from Landing Page Designs to Discord Bots & Web Applications.
                         </h2>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="bg-white p-4 text-start">
-                        <p class="fw-light">
-                            I'm not an expert in full web applications,
-                            but I can definitely build a basic application,
-                            with beautiful UI!
-                        </p>
+                      <p class="fw-light">
+                        I'm not an expert in complex web applications,
+                        but I can definitely build a basic web app, with
+                        beautiful UI catered to your own preference!
+                      </p>
                     </div>
                 </div>
             </div>
@@ -122,12 +115,11 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-paper-plane"></div>
-          <h3 class="display-3--title mt-1">Marketing</h3>
+          <div class="icon d-block fas fa-code"></div>
+          <h3 class="display-3--title mt-1">Web Development</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            I'm an aspiring fullstack developer specialised in frontend and backend for complex scalable web apps.
+            I have 1-2 years of experience in fullstack and more than 3 years of experience in Node.js backend.
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -136,7 +128,7 @@
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
         <div class="services__pic">
-          <img src="assets/images/services/service-1.png" alt="marketing illustration" class="img-fluid">
+          <img src="assets/images/services/service-2.png" alt="marketing illustration" class="img-fluid">
         </div>
       </div>
     </div>
@@ -144,21 +136,22 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-start">
         <div class="services__pic">
-          <img src="assets/images/services/service-2.png" alt="web development illustration" class="img-fluid">
+          <img src="assets/images/services/service-1.png" alt="web development illustration" class="img-fluid">
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-code"></div>
-          <h3 class="display-3--title mt-1">web development</h3>
+          <div class="icon d-block fas fa-robot"></div>
+          <h3 class="display-3--title mt-1">Discord Bot</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            I can build <a href="https://discord.com/" class="text-decoration-none">Discord</a> Bots for you. I use a 
+            <a href="https://nodejs.org/en/" class="text-decoration-none">Node.js</a> library called 
+            <a href="https://discord.js.org/#/" class="text-decoration-none">discord.js</a>, 
+            and can integrate an economy system as well as other things you might want.
           </p>
-          <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
+          <a href="https://github.com/W-15-Interactive/w15i-carlo-public-bot" class="text-decoration-none" target="__blank"><button type="button" class="rounded-pill btn-rounded border-primary">My Public Discord Bot
             <span><i class="fas fa-arrow-right"></i></span>
-          </button>
+          </button></a>
         </div>
       </div>
     </div>
@@ -166,12 +159,13 @@
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4">
         <div class="services__content">
-          <div class="icon d-block fas fa-cloud-upload-alt"></div>
-          <h3 class="display-3--title mt-1">cloud hosting</h3>
+          <div class="icon d-block fas fa-palette"></div>
+          <h3 class="display-3--title mt-1">Landing Page Design</h3>
           <p class="lh-lg">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, impedit rem,
-             doloremque autem quibusdam blanditiis harum alias hic accusantium 
-             maxime atque ratione magni repellat?
+            Using <a href="" class="text-decoration-none">Sass</a> and
+            <a href="https://getbootstrap.com/" class="text-decoration-none">Bootstrap</a>,
+            I can create a sleak landing page design for you with cool animations! All you
+            need to do is instruct me <em>elaborately</em> on how it needs to look!
           </p>
           <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
             <span><i class="fas fa-arrow-right"></i></span>
@@ -186,15 +180,36 @@
     </div>
   </div>
   </section>
-  
+
+  <!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                             START SECTION 3 - THE CAMPANIES SECTION  
+////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="campanies" class="campanies text-white">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L80,154.7C160,149,320,139,480,144C640,149,800,171,960,165.3C1120,160,1280,128,1360,112L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+  <div class="container">
+    <div class="row text-center">
+      <h4 class="fw-bold lead mb-3 display-3">My Company</h4>
+      <hr style="width: 100px; height: 3px; " class="mx-auto">
+    </div>
+  </div>
+  <!-- START THE CAMPANIES CONTENT  -->
+  <div class="container text-center">
+    <a href="https://w15interactive.home.blog/" target="__blank" class="text-decoration-none text-white">
+      <h3>W-15 Interactive</h3>
+    </a>
+    <a href="https://w15interactive.home.blog/">
+      <img class="rounded" target="__blank" src="assets/images/company/w15interactive.png">
+    </a>
+  </div>
+</section>
   <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
-                                START SECTION 4 - THE TESTIMONIALS  
+                                START SECTION 5 - THE TESTIMONIALS  
   /////////////////////////////////////////////////////////////////////////////////////////////////////-->
   <section id="testimonials" class="testimonials">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,0L60,37.3C120,75,240,149,360,197.3C480,245,600,267,720,229.3C840,192,960,96,1080,80C1200,64,1320,128,1380,160L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg>
     <div class="container">
       <div class="row text-center text-white">
-        <h1 class="display-3 fw-bold">Testimonials</h1>
+        <h1 class="display-3 fw-bold mt-5">Testimonials</h1>
         <hr style="width: 100px; height: 3px; " class="mx-auto">
         <p class="lead pt-1">what our clients are saying</p>
       </div>
@@ -409,7 +424,7 @@
         <h1 class="display-3 fw-bold text-capitalize">Latest work</h1>
         <div class="heading-line"></div>
         <p class="lead">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint porro temporibus distinctio.
+          Check out all the projects that I've recently worked on!
         </p>
       </div>
       <!-- FILTER BUTTONS  -->
@@ -602,8 +617,8 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">+1 728365413</a>
-            <p class="contact-box__info--subtitle">  Mon-Fri 9am-6pm</p>
+            <a href="#" class="contact-box__info--title">+880 1789017546</a>
+            <p class="contact-box__info--subtitle">  Fri-Sat 10am-6pm</p>
           </div>
         </div>  
         <!-- CONTENT FOR EMAIL  -->
@@ -618,7 +633,7 @@
             </svg>
           </div>
           <div class="contact-box__info">
-            <a href="#" class="contact-box__info--title">development.wmk@gmail.com</a>
+            <a href="#contact" class="contact-box__info--title">development.wmk@gmail.com</a>
             <p class="contact-box__info--subtitle">Online support</p>
           </div>
         </div>
@@ -721,17 +736,7 @@
   <a href="#" class="shadow btn-primary rounded-circle back-to-top">
     <i class="fas fa-chevron-up"></i>
   </a>
-
-  <script src="/assets/vendors/js/glightbox.min.js"></script>
-  <script type="text/javascript">
-      const lightbox = GLightbox({
-          'href': 'https://www.youtube.com/watch?v=IixB2ROTQcU&ab_channel=WaseefMohammadKhan',
-          'type': 'video',
-          'source': 'youtube', //vimeo, youtube or local
-          'width': 900,
-          'autoPlayVideos': 'true'
-      },);
-  </script>
+  
   <script src="assets/js/bootstrap.bundle.js"></script>
 </body>
 </html>
